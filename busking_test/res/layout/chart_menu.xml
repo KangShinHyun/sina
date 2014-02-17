@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#6d7278"
+    android:orientation="vertical" >
+
+    <!-- 로그인전 -->
+	<ImageView
+                android:id="@+id/title_btn_menu"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:background="@drawable/btn_top_menu_normal"/>
+    <TextView
+        android:id="@+id/test_left_chart"
+        android:layout_width="150dip"
+        android:layout_height="150dip"
+        android:text="여기는 차트 플래그먼트 이거누르면 홈으로 간다"
+        android:layout_marginTop="50dip"
+        android:background="#000000"
+        android:textColor="#ffffff"/>
+	
+</LinearLayout>
